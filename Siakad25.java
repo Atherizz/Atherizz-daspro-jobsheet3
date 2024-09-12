@@ -31,11 +31,12 @@ public class Siakad25 {
         System.out.print("Masukkan nilai ujian : ");
         nilaiUjian = sc.nextDouble();
 
-        nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
+        nilaiAkhir = (nilaiKuis * 20/100) + (nilaiTugas * 15/100) + (nilaiUjian * 30/100) + (nilaiUjian * 35/100);
 
         System.out.println("Nama : " + nama + " - NIM : " + nim );
         System.out.println("Kelas : " + kelas + " - Absen : " + absen);
         System.out.println("Nilai Akhir : " + nilaiAkhir);
+
 
     }
 }
